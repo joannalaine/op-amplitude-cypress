@@ -1,0 +1,15 @@
+{
+  "name": "amplitude-cypress",
+  "version": "1.0.0",
+  "description": "Check Amplitude events using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "./node_modules/.bin/cypress open --e2e --browser chrome",
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "author": "Joanna Denni",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.9.0"
+  }
+}
